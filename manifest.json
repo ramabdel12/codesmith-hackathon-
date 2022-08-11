@@ -1,6 +1,14 @@
 {
-    "name": "Tracker",
-    "description": "Build an Extension!",
-    "version": "1.0",
-    "manifest_version": 3
+  "name": "CODESMITH INTERVIEW",
+  "description": "Build an Extension!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "hackathon.js"
+  },
+  "permissions": ["storage"],
+  "action":{
+  "default_popup" : "hackathon.html"
   }
+  
+}
